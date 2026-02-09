@@ -2017,6 +2017,9 @@ html body {
     width: 80vw;
     height: 65vh;
     background-color: rgb(241, 241, 241);
+    background-image: url("pppnngg.png");
+    background-position: center;
+    background-size: cover;
     border-radius: 20px;
     position: relative;
 }
@@ -2068,4 +2071,101 @@ html body {
 .donate_us:hover {
     background-color: #396731;
     color: whitesmoke;
+}
+.donate_img{
+    width: 32vw;
+    height: 35vh;
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+    border-radius: 40px;
+}
+.png_img{
+    position: relative;
+    left: 30vw;
+    top: -25vh;
+    background-image: url("ppnngg.png");
+    width: 50vw;
+    height: 50vw;
+    
+}
+
+
+
+/* ----------footer--------- */
+
+.footer{
+    width: 100vw;
+    height: 120vh;
+    background-color: #f5f4f4;
+    position: relative;
+    top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_head{
+      color: #103609;
+    border: 2px solid rgb(9, 68, 9);
+    width: 10vw;
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 4px;
+}
+.footer_h1{
+    width: 70vw;
+    font-family: h;
+    font-size: 80px;
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+    color: #2e2f2e;
+}
+.footer_link{
+    width: 90vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+    position: relative;
+    top: 20vh;
+}
+.f_link{
+    text-decoration: none;
+    color: #2e2f2e;
+    font-size: 25px;
+    font-family: h;
+    font-weight: bolder;
+    padding-top: 7vh;
+    height: 0vh;
+
+}
+.f_link:hover{
+    color: rgb(233, 194, 19)
+}
+.f_link_h{
+    position: absolute;
+    top: 25vh;
+    font-size: 120px;
+    letter-spacing: 8px;
+    color: #00030051;
+    font-family: h;
+}
+.email{
+    position: absolute;
+    top: 113vh;
+    left: 5vw;
+    text-decoration: none;
+    font-family: h;
+    color: #000300cb;
+    font-weight: 900;
+}
+.email:hover{
+    color: rgb(231, 150, 28);
 }
